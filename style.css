@@ -1,0 +1,207 @@
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: monospace;
+        background-origin: border-box;
+        background-image: url(./images/background\ image.jpg);
+      }
+
+      nav > ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        background-color: rgb(0, 0, 0);
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+      }
+
+      nav > ul > li {
+        display: inline-block;
+        width: 160px;
+        position: relative;
+      }
+
+      nav > ul ul {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        visibility: hidden;
+      }
+
+      nav > ul > li:hover ul {
+        visibility: visible;
+      }
+
+      nav ul li a {
+        display: block;
+        text-decoration: none;
+        font-size: 20px;
+        color: rgb(248, 198, 178);
+        transition: transform 1s ease-in-out;
+      }
+
+      nav ul li a:hover {
+        border: 2px solid white;
+        border-radius: 5px;
+        color: brown;
+        transform: scale(0.7);
+      }
+
+      nav > ul ul > li {
+        display: block;
+        background-color: black;
+        margin-top: 20px;
+        border-radius: 5px;
+        box-shadow: 0 7px red;
+      }
+
+      .top
+      {
+        padding-top: 100px;
+      }
+      .pel {
+        float: left;
+        width: 30%;
+        background-color: rgba(41, 2, 77, 0.993);
+        height: 100px;
+        position: fixed;
+      }
+
+      .pel img {
+        height: 90px;
+        width: auto;
+        padding-left: 100px;
+      }
+
+      .heading {
+        float: right;
+        width: 70%;
+        height: 100px;
+     background-color: rgb(41, 2, 77);
+     position: fixed;
+     right: 0;
+      }
+
+      .heading h1 {
+        font-size: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        letter-spacing: 7px;
+        padding-left: 30px;
+        margin: 0;
+        padding-bottom: 0px;
+        clear: both;
+        color:tomato;
+        text-shadow: 0 5px white;
+      }
+
+      .heading h3 {
+        font-size: 20px;
+        font-style: italic;
+        font-family: monospace;
+        padding-left: 150px;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin: 0;
+        color: burlywood;
+        clear: both;
+      }
+      .float{
+          margin-top: 100px;
+          width: 100%;
+          text-align: center;
+      }
+
+      .text{
+          margin-left: 15px;
+          float: left;
+          width: 32%;
+          border: 7px solid yellowgreen;
+          font-family: cursive;
+          font-size: 45px;
+          line-height: 95px;
+          border-radius: 20px;
+          color:goldenrod;
+          text-shadow:0 9px black;
+      }
+
+      .pic{
+          float: right;
+          width: 65%;
+          margin-right: 10px;
+      }
+
+      .text{
+          clear: both;
+      }
+      .pic img{
+          height: 100%;
+          width: 100%;
+          border: 7px solid black;
+          border-radius: 20px;
+      }
+
+      .float-2{
+          text-align: center;
+          width: 100%;
+      }
+
+      .text1 {
+          float: left;
+          width: 21%;
+          text-align: justify;
+          margin: 30px 20px;
+          font-size: 20px;
+          background-color: rgba(255, 127, 80, 0.39);;
+          padding: 12px;
+          height: 350px;
+          overflow: scroll;
+      }
+
+      .pic2{
+          float:left;
+          width: 21%;
+          margin: 28px 20px;
+          padding: 40px 0;
+          background-color: darkgoldenrod;
+      }
+
+      .pic2 img{
+          height: 100%;
+          width: 100%;
+      }
+
+      .text2{
+          float: left;
+          width: 21%;
+          text-align: justify;
+          margin: 30px 20px;
+          font-size: 20px;
+          height: 350px;
+          background-color: rgba(255, 127, 80, 0.39);
+          padding: 12px;
+          overflow: scroll;
+      }
+
+      .pic3{
+          float: right;
+          width: 21%;
+          margin: 28px 20px;
+          padding: 40px 0;
+          background-color: darkgoldenrod;
+      }
+
+      .pic3 img{
+          height: 100%;
+          width: 100%;
+      }
+
+      #team{
+          text-align: center;
+          background-color: darkgray;
+          height: 100%;
+          font-size: 40px;
+      }
